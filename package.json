@@ -1,0 +1,22 @@
+{
+  "name": "logins",
+  "version": "1.0.0",
+  "description": "All about logins and registering",
+  "license": "ISC",
+  "author": "Omkar P",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cookie-parse": "^0.4.0",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.2.0",
+    "nodemon": "^3.1.14"
+  }
+}
